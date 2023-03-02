@@ -29,7 +29,7 @@
                     Thế Tùng Auto
                 </span> -->
                 <span style="font-family:sans-serif; font-size: 25px;">
-                    BS4 Blog
+                    Web BS4
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
@@ -129,6 +129,7 @@
     </header>
     <main class="container">
         <!-- https://getbootstrap.com/docs/4.0/components/forms/#form-grid -->
+        <!--https://preview.colorlib.com/#winter-->
         <form>
             <div class="form-group row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
@@ -137,10 +138,42 @@
                         value="email@example.com">
                 </div>
             </div>
+
             <div class="form-group row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <label for="staticEmail" class="col-sm-2 col-form-label">Điện Thoại</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="0968666888">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Địa Chỉ</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"
+                        value="128A Hồ Tùng Mậu">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Mạng Xã Hội</label>
+                <div class="col-sm-10">
+                    <!-- Facebook -->
+                    <a class="btn  btn-floating m-1" href="#!" role="button" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn  btn-floating m-1" href="#!" role="button" title="Twitter"><i class="fa fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn  btn-floating m-1" href="#!" role="button" title="Google Plus"><i class="fa fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn  btn-floating m-1" href="#!" role="button" title="Instagram"><i class="fa fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-floating m-1" href="#!" role="button" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn  btn-floating m-1" href="#!" role="button" title="Github"><i class="fa fa-github"></i></a>
                 </div>
             </div>
         </form>
@@ -151,14 +184,29 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         <form>
             <div class="form-group">
-                <label for="formGroupExampleInput">Example label</label>
+                <label for="formGroupExampleInput">Tựa Đề Tin Nhắn</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
             </div>
             <div class="form-group">
-                <label for="formGroupExampleInput2">Another label</label>
-                <textarea rows="10" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-            </textarea>
+                <label for="formGroupExampleInput2">Nội Dung Tin Nhắn</label>
+                <textarea rows="10" class="form-control" id="formGroupExampleInput2"
+                    placeholder="Another input"></textarea>
+
+
             </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Tên Người Gửi</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Website Cá Nhân</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+            </div>
+            <button class="btn btn-primary">Gửi Tin Nhắn</button>
         </form>
 
     </main>
@@ -169,43 +217,28 @@
     </footer> -->
 
     <section class="p-4 text-center">
-        <footer class="bg-dark text-center text-white">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-                <!-- Section: Social media -->
-                <section class="mb-4">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-facebook-f"></i></a>
 
-                    <!-- Twitter -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-twitter"></i></a>
 
-                    <!-- Google -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-google"></i></a>
+        <footer class="container text-dark" style="text-align: center;">
+            <hr style="border: 1px solid gray;">
+            <span>&copy; 2022. Web Cá Nhân. </span>
+            <!-- Facebook -->
+            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f"></i></a>
 
-                    <!-- Instagram -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-instagram"></i></a>
+            <!-- Twitter -->
+            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-twitter"></i></a>
 
-                    <!-- Linkedin -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-linkedin-in"></i></a>
+            <!-- Google -->
+            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-google"></i></a>
 
-                    <!-- Github -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                            class="fa fa-github"></i></a>
-                </section>
-                <!-- Section: Social media -->
-            </div>
-            <!-- Grid container -->
+            <!-- Instagram -->
+            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
 
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                Copyright © 2022. <h5>Thế Tùng Auto </h5> – Lựa Chọn Số 1 Của Người Đam Mê Xe –
-                <!-- Copyright -->
+            <!-- Linkedin -->
+            <a class="btn btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
+
+            <!-- Github -->
+            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-github"></i></a>
         </footer>
     </section>
     <!-- Cài đặt bs4-js -->
